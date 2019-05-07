@@ -1,0 +1,36 @@
+$height: 300px;
+
+.bash {
+  color: rgb(233, 237, 237);
+  background-color: rgb(38, 50, 56);
+  height: $height;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  .ToolBar {
+    padding: 1em;
+    padding-bottom: .5em;
+    background-color: rgb(35, 47, 53);
+  }
+  .BashScroll {
+    padding: .8em 1em;
+    padding-bottom: 0;
+    max-height: $height - 80px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .step {
+      line-height: 1.8;
+      display: flex;
+      .LineNum {
+        color: #537f7e;
+        width: 2em;
+      }
+      .Content {
+        flex: 1;
+      }
+    }
+  }
+}
