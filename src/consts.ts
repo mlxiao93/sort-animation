@@ -2,7 +2,7 @@ export const ARRAY_LENGTH = 10;   // 数组长度
 export const MAX_VALUE = 10;   // 数值最大值
 
 export const RECT_WIDTH = 10;   // 矩形宽度
-export const RECT_GAP = 3;      // 矩形间距
+export const RECT_GAP = 2;      // 矩形间距
 
 export const VIEW_BOX_VERTICAL_GAP = 10;  // viewBox距svg边框的上（下）边距，腾出空间给指示器
 

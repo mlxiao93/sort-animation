@@ -24,6 +24,7 @@ $height: 300px;
     .step {
       line-height: 1.8;
       display: flex;
+      flex-shrink: 0;
       .LineNum {
         color: #537f7e;
         width: 2em;
