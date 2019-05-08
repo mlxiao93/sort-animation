@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "787145a4da5c7892cf05c76f013ac024",
+    "revision": "065c79d22c9bda616846a4289dab6065",
     "url": "/sort-animation/index.html"
   },
   {
-    "revision": "24c5a39935f2fa5e8a6a",
+    "revision": "ffeb82cbb96a29f91d51",
     "url": "/sort-animation/static/css/main.527fa0ec.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sort-animation/static/js/2.af0c708e.chunk.js"
   },
   {
-    "revision": "24c5a39935f2fa5e8a6a",
-    "url": "/sort-animation/static/js/main.f8419fc8.chunk.js"
+    "revision": "ffeb82cbb96a29f91d51",
+    "url": "/sort-animation/static/js/main.16ef23e8.chunk.js"
   },
   {
     "revision": "636969b7fbbb3ed207dc",

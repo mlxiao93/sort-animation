@@ -160,8 +160,11 @@ export default class DemoCard extends React.Component<{
   getBesselLocate(): string {
     const {swap} = this.getCurrentStep();
     if (!swap) return '';
-    const startPoint = `${swap[0] * (RECT_WIDTH + RECT_GAP) + RECT_GAP} ${MAX_VALUE * heightMaxValueRatio}`;
-    const endPoint = `${swap[1] * (RECT_WIDTH + RECT_GAP) + RECT_GAP} ${MAX_VALUE * heightMaxValueRatio}`;
+    const startPoint = `${swap[0] * (RECT_WIDTH + RECT_GAP) + RECT_WIDTH / 2} ${MAX_VALUE * heightMaxValueRatio}`;
+    const endPoint = `${swap[1] * (RECT_WIDTH + RECT_GAP) + RECT_WIDTH / 2} ${MAX_VALUE * heightMaxValueRatio}`;
+
+    console.log(swap);
+    console.log(startPoint, endPoint);
 
     const besselBasePoint = getBesselBasePoint(startPoint, endPoint);
 
