@@ -163,9 +163,6 @@ export default class DemoCard extends React.Component<{
     const startPoint = `${swap[0] * (RECT_WIDTH + RECT_GAP) + RECT_WIDTH / 2} ${MAX_VALUE * heightMaxValueRatio}`;
     const endPoint = `${swap[1] * (RECT_WIDTH + RECT_GAP) + RECT_WIDTH / 2} ${MAX_VALUE * heightMaxValueRatio}`;
 
-    console.log(swap);
-    console.log(startPoint, endPoint);
-
     const besselBasePoint = getBesselBasePoint(startPoint, endPoint);
 
     return `M${startPoint} Q${besselBasePoint}, ${endPoint}`;
